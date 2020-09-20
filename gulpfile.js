@@ -41,7 +41,7 @@ gulp.task('watch', function() {
 
 gulp.task('build:localize', function() {
     var dest  = './';
-    var index = './index.html';
+    var index = './main.html';
   
     return gulp.src(index)
       .pipe(i18n({
