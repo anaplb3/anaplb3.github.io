@@ -5,6 +5,7 @@ const sass = require('gulp-sass');
 const wait = require('gulp-wait');
 const babel = require('gulp-babel');;
 const rename = require('gulp-rename');
+const i18n = require('gulp-html-i18n');
 
 gulp.task('scripts', function() {
     return gulp.src('./js/scripts.js')
@@ -37,3 +38,15 @@ gulp.task('watch', function() {
     gulp.watch('./js/scripts.js', gulp.series('scripts'));
     gulp.watch('./scss/styles.scss', gulp.series('styles'));
 });
+
+gulp.task('build:localize', function() {
+    var dest  = './';
+    var index = './index.html';
+  
+    return gulp.src(index)
+      .pipe(i18n({
+        langDir: './language',
+        trace: true
+      }))
+      .pipe(gulp.dest(dest));
+  });

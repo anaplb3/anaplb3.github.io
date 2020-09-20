@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #8bbbdb;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -370,8 +370,8 @@ footer {
 
     h1 {
         color: #fff;
-        font-weight: 900;
-        font-size: 5em;
+        font-weight: 700;
+        font-size: 4em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
@@ -383,6 +383,21 @@ footer {
         font-size: 2.25em;
         margin-bottom: 15px;
     }
+
+    img {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+
+.language {
+    position: absolute;
+    top: -50px;
+    background-color: #fff;
+    border-radius: 15px;
 }
 
 #lead-overlay {
@@ -673,6 +688,10 @@ footer {
         margin: 0 0 15px 0;
         font-size: 0.9em;
     }
+}
+
+.langLogo {
+    margin-top: 15px;
 }
 
 .no-image {

@@ -4,7 +4,8 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "localize": "gulp build:localize"
   },
   "keywords": [
     "portfolio",
@@ -27,5 +28,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "0.0.2"
+  },
+  "dependencies": {
+    "gulp-html-i18n": "^0.16.0"
   }
 }
