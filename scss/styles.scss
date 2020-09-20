@@ -356,10 +356,18 @@ footer {
     overflow: hidden;
 }
 
+#lang {
+    display: flex;
+}
+
+.pt-lang {
+    margin-right: 15px;
+}
+
 #lead-content {
     position: absolute;
     z-index: 10;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
