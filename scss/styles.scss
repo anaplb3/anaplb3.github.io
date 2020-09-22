@@ -357,7 +357,7 @@ footer {
 }
 
 #lang {
-    display: flex;
+    /* display: inline-flex; */
 }
 
 .pt-lang {
@@ -727,7 +727,8 @@ footer {
 
     h2 {
         color: $heading;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+        margin-top: 50px;
     }
 
     ul {

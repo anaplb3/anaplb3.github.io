@@ -103,14 +103,6 @@
                 </p>
             </div>
 
-            <div data-date=${{ index.date2Experience }}$>
-                <h3>Phoebus</h3>
-                <h4>Trainee</h4>
-                <p>
-                    ${{ index.role2Description }}$
-                </p>
-            </div>
-
         </div>
     </div>
     <!-- End #experience -->
@@ -162,7 +154,7 @@
                     <div class="project-info">
                         <h3>Ultimate Covid API</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            ${{ index.projectDescription2 }}$
                         </p>
                         <a href="https://github.com/anaplb3/ultimate-covid-api" target="_blank">${{ index.viewProject }}$</a>
                         
@@ -182,7 +174,7 @@
                     <div class="project-info">
                         <h3>AppAlpha</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            ${{ index.projectDescription3 }}$
                         </p>
                         <a href="https://github.com/anaplb3/JogoDaForca-Android" target="_blank">${{ index.viewProject }}$</a>
                     
@@ -202,13 +194,23 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
+            
             <li>Python</li>
             <li>Flask</li>
             <li>Heroku</li>
-            <li>Node.js</li>
             <li>Java</li>
+
         </ul>
+
+        <h2 class="heading"> ${{ index.learning }}$ </h2>
+        <ul>
+
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Graphql</li>
+
+        </ul>
+        
     </div>
     <!-- End #skills -->
 
