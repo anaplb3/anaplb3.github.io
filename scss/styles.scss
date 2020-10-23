@@ -357,7 +357,8 @@ footer {
 }
 
 #lang {
-    /* display: inline-flex; */
+    float: left;
+    display: flex;
 }
 
 .pt-lang {
