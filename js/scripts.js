@@ -30,7 +30,7 @@
         }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
 
         // Hide the menu once clicked if mobile
-        if ($('header menu').hasClass('active')) {
+        if ($('header').hasClass('active')) {
             $('header, body').removeClass('active');
         }
     });
