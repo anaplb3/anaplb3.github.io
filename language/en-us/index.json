@@ -21,5 +21,6 @@
     "contactMe": "Contact Me!",
     "send": "Send",
     "learning": "Learning",
-    "resumePath": " './resume/en-us/englishResume.pdf' "
+    "resumePath": " './resume/en-us/englishResume.pdf' ",
+    "linkedinUrl": " https://www.linkedin.com/in/ana-paula-lima-borges/?locale=en_US"
 }

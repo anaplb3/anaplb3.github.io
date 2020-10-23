@@ -23,5 +23,6 @@
     "contactMe": "Entre em contato!",
     "send": "Enviar",
     "learning": "Aprendendo",
-    "resumePath": " './resume/pt-br/ptCurriculo.pdf' "
+    "resumePath": " './resume/pt-br/ptCurriculo.pdf' ",
+    "linkedinUrl": "https://www.linkedin.com/in/ana-paula-lima-borges/"
 }
