@@ -15,7 +15,7 @@
     "courseName": "Bachelor in Information Systems",
     "educationDescription": "This degree addresses several areas, such as Development, Security and Management.",
     "projectDescription1": "This project was made thinking about how was dificult to track progress of the student aid of UFPB. So, I made a python script that goes to the source of the process and collect the data about it, and after that make them available through an API made in Flask. The API was deployed on Heroku.",
-    "projectDescription2": "In here, I was collecting data about Covid-19 from Brazil's Ministry of Health and make them available through an Graphql API.",
+    "projectDescription2": "This API was made in UFPB's project <a href='http://labdados.dcx.ufpb.br/licitantes' target='_blank'>Tecnologia Cidadã </a>. The goal is to make available the bidding data in Paraiba state, so the citizens can inspect the public spending in a more easy way.",
     "projectDescription3": "This app was made in UFPB's project <a href='https://apps4society.dcx.ufpb.br/' target='_blank'>Apps4Society </a>, and he aims to facilitate the literacy process, using images and sounds in the classic hangman game.",
     "viewProject": "View project here!",
     "contactMe": "Contact Me!",

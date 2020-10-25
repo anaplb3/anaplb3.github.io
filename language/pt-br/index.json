@@ -17,7 +17,7 @@
     "courseName": "Bacharelado em Sistemas de Informação",
     "educationDescription": "Esse bacharelado aborda várias áreas, como Desenvolvimento, Segurança e Gestão.",
     "projectDescription1": "Esse projeto foi feito pensando em como era complicado acompanhar o progresso dos auxílios estudantis da UFPB. Então, eu fiz um script em python que vai até a fonte do processo e coleta os dados sobre ele, e depois disponibiliza os mesmos em uma API Rest feita em Flask. O deploy foi feito usando o Heroku. ",
-    "projectDescription2": "Aqui eu coletei dados do Covid-19 disponibilizados pelo Ministério da Saúde do Brasil e usei como fonte para uma API em Graphql, para fins de estudo.",
+    "projectDescription2": "Essa API foi desenvolvida no projeto da UPFB <a href='http://labdados.dcx.ufpb.br/licitantes' target='_blank'>Tecnologia Cidadã </a>. O objetivo é disponibilizar os dados de licitações do estado da Paraíba, para que os cidadãos possam fiscalizar os gastos públicos de forma mais fácil.",
     "projectDescription3": "Esse app foi feito no projeto da UFPB <a href='https://apps4society.dcx.ufpb.br/' target='_blank'>Apps4Society </a>, e ele visa facilitar o processo de alfabetização usando sons e imagens no clássico jogo da forca.",
     "viewProject": "Veja o projeto aqui!",
     "contactMe": "Entre em contato!",
